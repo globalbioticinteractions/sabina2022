@@ -1,0 +1,66 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "1-s2.0-S016788092200161X-mmc3.tsv",
+    "dcterms:bibliographicCitation" : "@article{Sabino_2022, doi = {10.1016/j.agee.2022.108012}, url = {https://doi.org/10.1016%2Fj.agee.2022.108012}, year = 2022, month = {sep}, publisher = {Elsevier {BV}}, volume = {335}, pages = {108012}, author = {William Sabino and Luciano Costa and Tamires Andrade and Juliana Teixeira and Gustavo Araújo and André Luís Acosta and Luísa Carvalheiro and Tereza Cristina Giannini}, title = {Status and trends of pollination services in Amazon agroforestry systems}, journal = {Agriculture, Ecosystems & Environment}}",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "pollinatedBy",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002456",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Crop",
+        "titles" : "Crop",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Scientific name",
+        "datatype" : "string"
+      }, {
+        "name" : "Dependence on pollinators",
+        "titles" : "Dependence on pollinators",
+        "datatype" : "string"
+      }, {
+        "name" : "Dependence rate",
+        "titles" : "Dependence rate",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollinator group",
+        "titles" : "Pollinator group",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpeciesName",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "reference",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "doi/link",
+        "datatype" : "string"
+      }, {
+        "name" : "Obs",
+        "titles" : "Obs",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
